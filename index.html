@@ -19,18 +19,18 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
-                        <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" required autocomplete="email">
+                        <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" required autocomplete="email" maxlength="30">
                         <label for="ilogin">Login</label>
                     </div>
                     <div class="campo">
                         <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="current-password">
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="current-password" maxlength="20" minlength="8">
                         <label for="isenha">Senha</label>
 
                     </div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">
-                        Esqueci minha senha
+                    <a href="esqueci.html" class="botao">
+                        Esqueci minha senha <span class="material-symbols-outlined" id="snha">mail</span>
                     </a>
                 </form>
             </div>

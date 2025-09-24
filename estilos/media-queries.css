@@ -6,6 +6,8 @@
     }
     #login {
         width: 80vw;
+        width: 100%;
+        display: flex;
     }
     #login>#imagem {
         float: left;
