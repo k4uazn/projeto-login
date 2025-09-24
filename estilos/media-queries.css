@@ -9,14 +9,15 @@
     }
     #login>#imagem {
         float: left;
-        width: 40%;
+        width: 30%;
         height: 100%;
     }
     
     #login>#formulario {
         float: right;
-        width: 60%;
+        width: 70%;
         height: 100%;
+        padding: 20px;
     }
 }
 @media screen and (min-width: 992px){
@@ -25,18 +26,25 @@
     }
     #login {
         width: 992px;
-        padding: 10px;
+        
    
 }
 #login>#imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
 }
 #ogin > #formulario {
-    float: right;
+    float: left;
     width: 50%;
+    height: 100% ;
     
    
+}
+#formulario>p {
+    font-size: 1.2em;
+}
+#formulario>h1 {
+    font-size: 2em;
 }
 }

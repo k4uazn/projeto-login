@@ -32,19 +32,27 @@ main {
     transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
-    transition: width 0.5s, height 0.5s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
 #login>#imagem {
-    background:  #5f2cb2 url(../imagens/istockphoto-511061090-1024x1024.jpg) no-repeat;
+    background:  #5f2cb2 url(../imagens/pexels-who0ne-32752668.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position:  bottom;
     display: block;
+
 }
 #login>#formulario {
     display: block;
     padding: 10px;
     margin-left: 10px;
+}
+#formulario>h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario>p {
+    font-size: 0.8em;
 }
