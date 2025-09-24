@@ -81,7 +81,7 @@ form > input[type="submit"] {
     cursor: pointer;
 }
 form > input[type="submit"]:hover {
-    background-color: #1f4b4b;
+    background-color: #206666;
     
 }
 form > a.botao {
@@ -113,7 +113,7 @@ form > a.botao:hover {
     padding: 5px;
 }
 .campo > input {
-    background-color: #2d6462;
+    background-color: #6bc5c2;
     width: calc(100% - 45px);
     height: 100%;
    border-radius: 8px;
